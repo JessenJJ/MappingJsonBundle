@@ -12,6 +12,8 @@
 		5BE543192BD89C0700E3BE35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE543182BD89C0700E3BE35 /* Assets.xcassets */; };
 		5BE5431C2BD89C0700E3BE35 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE5431B2BD89C0700E3BE35 /* Preview Assets.xcassets */; };
 		5BE543292BD89D1900E3BE35 /* Colors.json in Resources */ = {isa = PBXBuildFile; fileRef = 5BE543282BD89D1900E3BE35 /* Colors.json */; };
+		5BE5432B2BD89D8E00E3BE35 /* ColorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE5432A2BD89D8E00E3BE35 /* ColorData.swift */; };
+		5BE5432D2BD8A14A00E3BE35 /* ColorFromHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE5432C2BD8A14A00E3BE35 /* ColorFromHex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		5BE543182BD89C0700E3BE35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BE5431B2BD89C0700E3BE35 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5BE543282BD89D1900E3BE35 /* Colors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Colors.json; sourceTree = "<group>"; };
+		5BE5432A2BD89D8E00E3BE35 /* ColorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorData.swift; sourceTree = "<group>"; };
+		5BE5432C2BD8A14A00E3BE35 /* ColorFromHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorFromHex.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 		5BE543232BD89C1C00E3BE35 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5BE5432A2BD89D8E00E3BE35 /* ColorData.swift */,
+				5BE5432C2BD8A14A00E3BE35 /* ColorFromHex.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -190,7 +196,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BE543172BD89C0200E3BE35 /* ContentView.swift in Sources */,
+				5BE5432D2BD8A14A00E3BE35 /* ColorFromHex.swift in Sources */,
 				5BE543152BD89C0200E3BE35 /* MappingJsonBundleApp.swift in Sources */,
+				5BE5432B2BD89D8E00E3BE35 /* ColorData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
